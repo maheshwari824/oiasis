@@ -1,0 +1,108 @@
+
+#myvideo {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    -o-object-fit:cover;
+    object-fit: cover;
+    -o-object-position:center;
+    object-position: center;
+}
+
+.overlay{
+    width:100%;
+}
+
+body {
+    color: #00565C;  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+  
+.card {
+    padding: 20px 0px;
+    border: 4px rgb(160, 151, 151) solid;
+    border-radius: 10px;
+}
+  
+  /* Input Section */
+.card.inputSection.col-12.col-md-6 {
+	background-color: #a05f5fa3;
+	border: #a05f5fa3;
+}
+
+
+#inputDegree {
+	background-color: #ffe4c46b;
+    border:#ffe4c46b;
+}
+
+#selectConversionType {
+    background-color: #ffe4c46b;
+    border:#ffe4c46b;
+
+}
+
+.card-title {
+    font-size: 1.8rem;
+    padding: 20px 0px;
+    font-weight: 600;
+}
+  
+label {
+    font-weight: 500;
+}
+  
+select {
+    margin-bottom: 40px;
+}
+  
+#selectInputDegreeType {
+    border-radius: 0px 3px 3px 0px;
+    background-color: #ffe4c46b;
+    border:#ffe4c46b;
+}
+
+.convertBtn {
+    min-width: 10px;
+    background-color:rgb(108, 51, 51);
+  
+  
+}
+  
+.convertBtn:hover {
+    transition: 0.5s;
+    background-color:rgba(77, 71, 71, 0.244);
+}
+ 
+  /* Result Section */
+  
+#resultValueSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    height: 200px;
+    word-wrap: normal;
+    text-align: center;
+    font-size-adjust: 0.58;
+}
+  
+#convertedDegree {
+    font-size: 65px;
+    font-weight: 500;
+    max-width: 500px;
+}
+  
+#convertedUnit,
+#degree {
+    padding-bottom: 70px;
+}
+  
+.resultSection {
+    background-color:rgb(160, 151, 151);
+    color: white;
+    opacity:0.6;
+}
+  
+ 
